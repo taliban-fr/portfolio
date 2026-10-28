@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Container, Row, Col } from 'react-bootstrap'
-import { FaGithub, FaLinkedin, FaInstagram, FaReddit} from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaInstagram, FaReddit,FaEnvelope} from 'react-icons/fa'
 import { FaXTwitter } from "react-icons/fa6";
 import OrbitSkills from '../components/OrbitSkills'
 import useTypewriter from '../hooks/useTypewriter'
@@ -51,6 +51,10 @@ export default function Hero() {
                   rel="noreferrer" aria-label="LinkedIn" className="social-round">
                   <FaLinkedin />
                 </a>
+                <a href="mailto:kmikekioko1@gmail.com" target="_blank" 
+                  rel="noreferrer" aria-label="Gmail" className="social-round"> 
+                  <FaEnvelope /> 
+                </a>
                 <a href="https://www.instagram.com/_.nowyouknowmik3_?mdxt=NzVlczl4YXZtYndt" target="_blank"
                   rel="noreferrer" aria-label="Instagram" className="social-round">
                   <FaInstagram />
@@ -59,7 +63,7 @@ export default function Hero() {
                   rel="noreferrer" aria-label="Twitter" className="social-round">
                   <FaXTwitter/>
                 </a>
-                <a href="https://x.com/talibanfr" target="_blank"
+                <a href="https://www.reddit.com/u/FUll-stack_dev001/s/BOwMtI0yEz" target="_blank"
                   rel="noreferrer" aria-label="Reddit" className="social-round">
                   <FaReddit/>
                 </a>
