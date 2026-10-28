@@ -163,7 +163,7 @@ html { scroll-behavior: smooth; }
   --hero-overlay: rgba(7, 7, 17, 0.6);
 }
 .ref-nav {
-  padding: 1.5rem 0;
+  padding: 0.85rem 0;
   background: rgba(var(--bs-body-bg-rgb), 0.72);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--bs-border-color);
@@ -205,7 +205,7 @@ html { scroll-behavior: smooth; }
 .text-cyan { color: #06b6d4; }
 
 .hero-title {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 700;
   line-height: 1.15;
   margin-bottom: 0.85rem;
@@ -213,7 +213,7 @@ html { scroll-behavior: smooth; }
 .hero-role {
   font-size: clamp(1.1rem, 2.4vw, 1.5rem);
   min-height: 1.8em;           
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.10rem;
 }
 .type-cursor {
   display: inline-block;
@@ -226,13 +226,13 @@ html { scroll-behavior: smooth; }
 @keyframes blink { 50% { opacity: 0; } }
 
 .hero-text {
-  font-size: 20px;
+  font-size: 15px;
   max-width: 600px;
   color: var(--bs-secondary-color);
-  margin-bottom: 1.80rem;
+  margin-bottom: 1.50rem;
 }
 
-.btn-pill { border-radius: 999px; padding: 0.6rem 1.6rem; font-weight: 600; font-size: 1.25rem; }
+.btn-pill { border-radius: 999px; padding: 0.4rem 1.4rem; font-weight: 600; font-size: 1.0rem; }
 .btn-teal { background: #06b6d4; border: 2px solid #06b6d4; color: #fff; }
 .btn-teal:hover { background: #0891b2; border-color: #0891b2; color: #fff; }
 .btn-outline-teal { background: transparent; border: 2px solid #06b6d4; color: #06b6d4; }
@@ -244,7 +244,7 @@ html { scroll-behavior: smooth; }
   border-radius: 50%;
   background: rgba(6, 182, 212, 0.12);
   color: var(--bs-body-color);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   transition: all 0.2s;
 }
 .social-round:hover { background: #06b6d4; color: #fff; transform: translateY(-2px); }
