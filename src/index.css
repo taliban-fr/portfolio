@@ -146,7 +146,7 @@ html { scroll-behavior: smooth; }
 .orbit-icon { animation: none; transform: rotate(calc(var(--rot) * -1)); }
 
 /* bigger orbit */
-.orbit-wrap { --size: min(540px, 90vw); margin-bottom: 2.5rem; }
+.orbit-wrap { --size: min(460px, 90vw); margin-bottom: 2.5rem; }
 .orbit-icon { width: 56px; height: 56px; margin: -28px 0 0 -28px; }
 .orbit-photo { inset: 17%; width: 66%; height: 66%; }
 .orbit-label { font-size: 0.7rem; }
@@ -493,6 +493,7 @@ a.cert-name:hover { color: #06b6d4; }
 .work-pill:hover { background: #06b6d4; color: #fff; }
 .work-pill-live { background: #06b6d4; color: #fff; }
 .work-pill-live:hover { background: #0891b2; }
+
 /* two orbits */
 .orbit-ring { --r: calc(var(--size) / 2); }
 .orbit-item {

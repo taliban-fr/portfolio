@@ -4,18 +4,17 @@ import {
 } from 'react-icons/fa'
 import { SiFastapi, SiTailwindcss, SiMongodb, SiPostgresql } from 'react-icons/si'
 
-// inner ring: your core skills (3 to 5 icons works best)
 const inner = [
-  { name: 'React.js', Icon: FaReact, color: '#61dafb' },
+  { name: 'HTML5', Icon: FaHtml5, color: '#e34f26' },
+  { name: 'CSS3', Icon: FaCss3Alt, color: '#1572b6' },
   { name: 'Python', Icon: FaPython, color: '#3776ab' },
   { name: 'FastAPI', Icon: SiFastapi, color: '#009688' },
   { name: 'JavaScript', Icon: FaJs, color: '#f7df1e' },
 ]
 
-// outer ring: everything else
+
 const outer = [
-  { name: 'HTML5', Icon: FaHtml5, color: '#e34f26' },
-  { name: 'CSS3', Icon: FaCss3Alt, color: '#1572b6' },
+  { name: 'React.js', Icon: FaReact, color: '#61dafb' },
   { name: 'Bootstrap', Icon: FaBootstrap, color: '#7952b3' },
   { name: 'Tailwind CSS', Icon: SiTailwindcss, color: '#38bdf8' },
   { name: 'Node.js', Icon: FaNodeJs, color: '#5fa04e' },
