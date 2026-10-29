@@ -25,6 +25,7 @@ export const skillBars = [
   { name: 'Bootstrap CSS Framework', level: 70},
   { name: 'React.js', level: 70 },
   { name: 'Python & FastAPI', level: 70 },
+  { name: 'Django', level: 50},
   { name: 'MongoDB & PostgreSQL', level: 50 },
   { name: 'Node.js & Express', level: 70},
   { name: 'Tools & Platforms: Git, Github, Docker',level: 80},

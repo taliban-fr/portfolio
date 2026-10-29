@@ -91,4 +91,13 @@ export const projects = [
     github: 'https://github.com/herbaddest/smart-cafeteria-hci.git',
     live: 'https://balsamiq.cloud/sz1apsz/p2awom6',
   },
+   {
+    title: 'Portfolio',
+    category: 'UI/UX',
+    description: 'A portolio template',
+    image: '/projects/canva.png',
+    tags: ['Canva'],
+    year: '2026',
+    live: 'https://canva.link/im7s31xe9qn6flc',
+  },
 ]
