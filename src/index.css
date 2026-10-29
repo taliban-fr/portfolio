@@ -514,3 +514,22 @@ a.cert-name:hover { color: #06b6d4; }
 
 /* photo shrinks slightly to make room for the inner ring */
 .orbit-photo { inset: 22%; width: 56%; height: 56%; }
+/* show names on the inner orbit */
+.orbit-ring.inner .orbit-label {
+  display: block;
+  margin-top: 3px;
+  padding: 1px 6px;
+  font-size: 0.6rem;
+  border-radius: 999px;
+  background: rgba(7, 7, 17, 0.75);   /* keeps the text readable */
+  color: var(--bs-body-color);
+}
+
+/* a little more room between the photo and the inner icons */
+.orbit-photo { inset: 24%; width: 52%; height: 52%; }
+.orbit-ring.inner { --r: calc(var(--size) * 0.37); inset: 13%; }
+
+/* too cramped on small phones, so hide the inner names there */
+@media (max-width: 575px) {
+  .orbit-ring.inner .orbit-label { display: none; }
+}

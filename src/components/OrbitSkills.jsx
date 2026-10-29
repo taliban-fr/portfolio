@@ -2,21 +2,22 @@ import {
   FaReact, FaPython, FaHtml5, FaCss3Alt, FaJs, FaBootstrap,
   FaNodeJs, FaDocker, FaGithub,
 } from 'react-icons/fa'
-import { SiFastapi, SiTailwindcss, SiMongodb, SiPostgresql } from 'react-icons/si'
+import { SiFastapi, SiTailwindcss, SiMongodb, SiPostgresql,SiDjango } from 'react-icons/si'
 
 const inner = [
   { name: 'HTML5', Icon: FaHtml5, color: '#e34f26' },
   { name: 'CSS3', Icon: FaCss3Alt, color: '#1572b6' },
-  { name: 'Python', Icon: FaPython, color: '#3776ab' },
-  { name: 'FastAPI', Icon: SiFastapi, color: '#009688' },
+  { name: 'React.js', Icon: FaReact, color: '#61dafb' },
+  { name: 'Bootstrap', Icon: FaBootstrap, color: '#7952b3' },
+  { name: 'Tailwind CSS', Icon: SiTailwindcss, color: '#38bdf8' },
   { name: 'JavaScript', Icon: FaJs, color: '#f7df1e' },
 ]
 
 
 const outer = [
-  { name: 'React.js', Icon: FaReact, color: '#61dafb' },
-  { name: 'Bootstrap', Icon: FaBootstrap, color: '#7952b3' },
-  { name: 'Tailwind CSS', Icon: SiTailwindcss, color: '#38bdf8' },
+  { name: 'Python', Icon: FaPython, color: '#3776ab' },
+  { name: 'FastAPI', Icon: SiFastapi, color: '#009688' },
+  { name: 'Django', Icon: SiDjango, color: '#092e20' },
   { name: 'Node.js', Icon: FaNodeJs, color: '#5fa04e' },
   { name: 'MongoDB', Icon: SiMongodb, color: '#47a248' },
   { name: 'PostgreSQL', Icon: SiPostgresql, color: '#4f8bc9' },
